@@ -10,7 +10,7 @@ Code is not that well documented but it gets the job done. Infinite terrain gene
 I'm currently researching faster collision detection. I'd also like to be able to instantly stop a job instead of having to wait for it to speed up the infinite terrain part.
 
 ## Problems
-Render distance above 500 is very slow. This is because all the chunks are currently full GameObjects. I'd like to render meshes outside of the player's destruction range manually, but I didn't find a way to do it yet without having too many draw calls and abysmall performance. Next thing would be to experiment with CommandBuffer.DrawProceduralIndirect or some other alternative.
+Render distance above 500 is very slow. This is because all the chunks are currently full GameObjects. I'd like to render meshes outside of the player's destruction range manually, but I didn't find a way to do it yet without having too many draw calls and abysmall performance. Next thing would be to experiment with CommandBuffer.DrawProceduralIndirect or some other alternative. Waiting for jobs on pooled chunks when traversing terrain causes most of the lag.
 
 ## Controls
 WASD to move, right click to control the camera, F to fill and C to cut terrain.
