@@ -1,6 +1,8 @@
 # Unity Marching Cubes Implementation
 This is my implementation of destructible infinite marching cubes terrain. Made in Unity utilizing latest Unity features, like collider baking on separate threads and setting raw mesh buffers.
 
+Demo video: https://www.youtube.com/watch?v=2RQKQjoIVnI&feature=youtu.be
+
 ## About the project
 Code is not that well documented but it gets the job done. Infinite terrain generation is currently not as fast as I would like it to be, since pooled chunks need to wait out all of their jobs before they can be used again. Terrain destruction is very fast, since all the colliders are baked on separate threads using Physics.BakeMesh. Everything is pooled so no memory (or very little) gets allocated or freed on runtime.
 
