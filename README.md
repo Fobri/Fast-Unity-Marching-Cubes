@@ -9,6 +9,7 @@ Render distance above 500 is very slow and causes random crashes for me. This is
 
 Feel free to fork the project and submit a pull request if you manage to optimize it even further :)
 Parts of the code are taken from https://github.com/Eldemarkki/Marching-Cubes-Terrain (those parts are mentioned in the comments)
+Recommended Unity version 2019.3.14f1
 
 Contact me
 Discord: Fobri#6742
