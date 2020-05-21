@@ -12,5 +12,7 @@ Parts of the code are taken from https://github.com/Eldemarkki/Marching-Cubes-Te
 Recommended Unity version 2019.3.14f1
 
 Contact me
+
 Discord: Fobri#6742
+
 Email: itsfobri@gmail.com
