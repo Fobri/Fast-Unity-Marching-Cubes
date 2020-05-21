@@ -10,6 +10,9 @@ I'm currently researching faster collision detection. I'd also like to be able t
 ## Problems
 Render distance above 500 is very slow. This is because all the chunks are currently full GameObjects. I'd like to render meshes outside of the player's destruction range manually, but I didn't find a way to do it yet without having too many draw calls and abysmall performance. Next thing would be to experiment with CommandBuffer.DrawProceduralIndirect or some other alternative.
 
+## Controls
+WASD to move, right click to control the camera, F to fill and C to cut terrain.
+
 Feel free to fork the project and submit a pull request if you manage to optimize it even further :)
 Parts of the code are taken from https://github.com/Eldemarkki/Marching-Cubes-Terrain (those parts are mentioned in the comments)
 
