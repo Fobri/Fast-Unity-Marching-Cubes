@@ -18,7 +18,7 @@ WASD to move, right click to control the camera, F to fill and C to cut terrain.
 ## Known problems
 If you build the project the build might randomly crash. Doesn't happen in editor, no clue why.
 
-%% Collaboration
+## Collaboration
 Feel free to fork the project and submit a pull request if you manage to optimize it even further :)
 Parts of the code are taken from https://github.com/Eldemarkki/Marching-Cubes-Terrain (those parts are mentioned in the comments)
 
