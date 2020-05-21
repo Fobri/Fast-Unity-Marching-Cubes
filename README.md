@@ -4,7 +4,7 @@ This is my implementation of destructible infinite marching cubes terrain. Made 
 ## About the project
 Code is not that well documented but it gets the job done. Infinite terrain generation is currently not as fast as I would like it to be, since pooled chunks need to wait out all of their jobs before they can be used again. Terrain destruction is very fast, since all the colliders are baked on separate threads using Physics.BakeMesh. Everything is pooled so no memory (or very little) gets allocated or freed on runtime.
 
-## Current state of the project
+## In research
 I'm currently researching faster collision detection. I'd also like to be able to instantly stop a job instead of having to wait for it to speed up the infinite terrain part.
 
 ## Problems
