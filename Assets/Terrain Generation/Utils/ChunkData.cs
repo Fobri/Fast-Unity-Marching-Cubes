@@ -153,8 +153,8 @@ namespace WorldGeneration
             var vertexCount = _counter.Count * 3;
             if (vertexCount > 0)
             {
-                var fuck = size / 2;
-                myMesh.bounds = new Bounds(new Vector3(fuck, fuck, fuck), new Vector3(size, size, size));
+                var boundsSize = size / 2;
+                myMesh.bounds = new Bounds(new Vector3(boundsSize, boundsSize, boundsSize), new Vector3(size, size, size));
                 //Set vertices and indices
                 myMesh.SetVertexBufferParams(vertexCount, layout);
                 myMesh.SetVertexBufferData(buffer, 0, 0, vertexCount, 0, MeshUpdateFlags.DontValidateIndices);
